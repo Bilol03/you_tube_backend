@@ -1,0 +1,20 @@
+[
+    {
+        "username": "Bilol",
+        "password": "74012265d99c4b046a44000354ee4ece55cade6a5f78998a12b0435a46ea3503",
+        "userId": 1,
+        "userImg": "/img/blog-img-3.jpg"
+    },
+    {
+        "username": "Mohinur",
+        "password": "6caa41d5a09e8d429a7866605a2b295beae88673b34c4f27a744df6d52737696",
+        "userId": 2,
+        "userImg": "/img/about-icon-2.png"
+    },
+    {
+        "username": "Anonimus",
+        "password": "e7f04271a18792ebdd484b9a583a665e48df5b001f60c60c232fdc49a718c875",
+        "userId": 3,
+        "userImg": "/img/food-galler-img-5.jpg"
+    }
+]
