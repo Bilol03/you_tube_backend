@@ -10,6 +10,11 @@ const GET = (req, res) => {
         return user
     })
 
+    if(userId) {
+        let user = users.find(el => el.userId == userId)
+        res.send(user)
+    }
+
     res.send(users)
 
    

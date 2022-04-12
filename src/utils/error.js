@@ -25,8 +25,18 @@ class InternalServerError extends Error {
     }
 }
 
+class ClientError extends Error {
+    constructor(status, message) {
+        super()
+        this.status = status
+        this.name = 'ClientError'
+        this.message = message
+    }
+}
+
 module.exports = {
     ValidationError,
     AuthorizationError,
     InternalServerError,
+    ClientError
 }

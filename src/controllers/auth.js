@@ -23,7 +23,7 @@ const LOGIN = (req, res, next) => {
         return res.status(200).json({
             status: 200,
             message: 'The user successfully logged in!',
-            img: user.userImg,
+            img: user.userId,
             token: sign({ agent, ip, userId: user.userId })
         })
         
@@ -67,7 +67,7 @@ const REGISTER = (req, res, next) => {
         return res.status(201).json({
             status: 201,
             message: 'The user successfully registered!',
-            img: req.body.userImg,
+            img: req.body.userId,
             token: sign({ agent, ip, userId: req.body.userId }),
             status: "success", 
             path: paths + "/" + file.name

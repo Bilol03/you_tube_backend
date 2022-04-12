@@ -35,4 +35,4 @@ app.use(videoRoute)
 
 
 
-app.listen(PORT, () => console.log("This server is running on http://localhost:" + PORT))
+app.listen(PORT, () => console.log("This server is running on http://192.168.30.34:" + PORT))
